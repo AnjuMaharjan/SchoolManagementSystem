@@ -1,0 +1,2 @@
+//for calculating age of teacher
+SELECT round( DATEDIFF( now( ) , dob ) /365 ) AS age FROM teacher
